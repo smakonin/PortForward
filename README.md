@@ -10,6 +10,7 @@ Connections are queued up through the use of Epoll. When a client sends data/req
 PFWD will forward connection to a specified server. To use PFWD you must specify 3 configuration options: the listening port, the forwarding server hostname or IP and the forwarding server port. For example:
 
 ```pfwd 8080 www.xyz.com 80```
+
 ```pfwd 8080 192.168.1.1 80```
 
 * ```8080``` is the listening port that clients will connect to.
